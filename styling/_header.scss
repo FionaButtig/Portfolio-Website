@@ -1,6 +1,6 @@
 
 header{
-    width: 96vw; height: 8vh;
+    width: 96vw; height: 7vh;
     float: right;
     overflow: hidden;
     display: flex;
@@ -8,10 +8,11 @@ header{
     font-size: 1.2rem;
     font-weight: bold;
     border-bottom: 2px solid rgb(124, 124, 124);
+    
 }
 
 .header_l{
-    width: 82%;
+    width: 86%;
     display: flex;
     align-items: center;
 
@@ -21,23 +22,25 @@ header{
 }
 
 .header_r{
-    width: 18%;
-    button{ 
-        width: 100%;
-        height: 100%;
-        color: white;
-        font-size: 1rem;
-        font-weight: bold;
-        background-color: #D41818;
-        border-left: 1px solid black; 
-        border-bottom: none;
-        border-right: none;
-        border-top: none;  
-    }
+    width: 14%;
 }
 
-.div1{
-    display: flex;
+.contact_btn{ 
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D41818;
+    border-left: 1px solid black; 
+    border-bottom: none;
+    border-right: none;
+    border-top: none;  
+}
+
+.contact_btn:hover{
+    background-color: black;
+    color: red;
 }
 
 .smaller_logo_i{
