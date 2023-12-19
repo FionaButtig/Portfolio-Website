@@ -56,9 +56,10 @@ header {
 }
 
 .smaller_logo_i {
-  width: 4%;
-  height: 40px;
   margin-left: 1%;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
 }
 
 @media only screen and (max-width: 580px) {
@@ -72,7 +73,7 @@ header {
 .sidebar {
   float: left;
   width: 4%;
-  height: 100%;
+  height: 100vh;
   border-right: 2px solid rgb(124, 124, 124);
   overflow: hidden;
   display: inline;
@@ -94,7 +95,7 @@ header {
 
 .menu_div {
   width: 100%;
-  height: 88%;
+  height: 89%;
   text-align: center;
 }
 
@@ -106,15 +107,17 @@ header {
 }
 
 .twitter_i {
-  width: 50%;
-  height: 30px;
-  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 2.2vw;
+  margin-bottom: 8px;
 }
 
 .linkedin_i {
-  width: 50%;
-  height: 30px;
-  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 2.2vw;
+  margin-bottom: 8px;
 }
 
 @media only screen and (max-width: 580px) {
@@ -161,16 +164,18 @@ footer {
 }
 
 .html_i {
-  width: 6%;
-  height: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
   margin: 30px;
   margin-top: 80px;
   transition: 0.3s;
 }
 
 .html_i:hover {
-  width: 8%;
-  height: 44px;
+  width: 100%;
+  height: auto;
+  max-width: 4vw;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
@@ -179,16 +184,18 @@ footer {
 }
 
 .css_i {
-  width: 6%;
-  height: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
   margin: 30px;
   margin-top: 80px;
   transition: 0.3s;
 }
 
 .css_i:hover {
-  width: 8%;
-  height: 44px;
+  width: 100%;
+  height: auto;
+  max-width: 4vw;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
@@ -197,16 +204,18 @@ footer {
 }
 
 .python_i {
-  width: 6%;
-  height: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
   margin: 30px;
   margin-top: 80px;
   transition: 0.3s;
 }
 
 .python_i:hover {
-  width: 8%;
-  height: 44px;
+  width: 100%;
+  height: auto;
+  max-width: 4vw;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
@@ -215,16 +224,18 @@ footer {
 }
 
 .django_i {
-  width: 6%;
-  height: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
   margin: 30px;
   margin-top: 80px;
   transition: 0.3s;
 }
 
 .django_i:hover {
-  width: 8%;
-  height: 44px;
+  width: 100%;
+  height: auto;
+  max-width: 4vw;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
@@ -233,16 +244,18 @@ footer {
 }
 
 .js_i {
-  width: 6%;
-  height: 40px;
+  width: 100%;
+  height: auto;
+  max-width: 3vw;
   margin: 30px;
   margin-top: 80px;
   transition: 0.3s;
 }
 
 .js_i:hover {
-  width: 8%;
-  height: 44px;
+  width: 100%;
+  height: auto;
+  max-width: 4vw;
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
