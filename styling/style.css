@@ -274,6 +274,8 @@ footer {
   color: grey;
   text-align: center;
   word-spacing: 4;
+  position: relative;
+  top: 6%;
 }
 
 @media only screen and (max-width: 590px) {
