@@ -114,6 +114,7 @@ header {
 .linkedin_i {
   width: 50%;
   height: 30px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 580px) {
@@ -319,13 +320,33 @@ main {
   height: 100%;
   flex-direction: column;
   border-right: 2px solid rgb(124, 124, 124);
-  text-align: center;
+}
+
+.mleft_p {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.fsu {
+  -webkit-text-decoration: underline rgb(15, 90, 44);
+          text-decoration: underline rgb(15, 90, 44);
+  font-weight: bold;
+  color: green;
 }
 
 .main_logo {
+  position: relative;
+  left: 16%;
+  width: 100%;
+  height: auto;
+  max-width: 30vw;
+  margin-top: 4%;
+  /*
   width: 68%;
   height: 40%;
-  margin-top: 10%;
+  */
 }
 
 /* mobile */
