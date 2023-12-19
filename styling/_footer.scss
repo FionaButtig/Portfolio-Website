@@ -1,7 +1,13 @@
 footer{
+    display: block;
     flex-direction: row;
     background-color: rgb(42, 42, 42);
     width: 96vw;
     border-left: 2px solid rgb(42, 42, 42);
     height: 6vh;
+}
+@media only screen and (max-width: 600px){
+    footer{
+        display: none
+    };
 }

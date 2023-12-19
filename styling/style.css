@@ -61,6 +61,12 @@ header {
   margin-left: 1%;
 }
 
+@media only screen and (min-width: 600px) {
+  header {
+    width: 96vw;
+    height: 7vh;
+  }
+}
 .sidebar {
   float: left;
   width: 4%;
@@ -108,7 +114,13 @@ header {
   height: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
 footer {
+  display: block;
   flex-direction: row;
   background-color: rgb(42, 42, 42);
   width: 96vw;
@@ -116,6 +128,11 @@ footer {
   height: 6vh;
 }
 
+@media only screen and (max-width: 600px) {
+  footer {
+    display: none;
+  }
+}
 .m_right {
   overflow: hidden;
   float: right;
@@ -250,9 +267,11 @@ main {
   float: right;
   width: 96vw;
   height: 89vh;
-  flex-direction: row;
+  flex-direction: column;
 }
 
+/* mobile */
+/* laptop */
 .m_left {
   overflow: hidden;
   float: left;
@@ -264,7 +283,7 @@ main {
 }
 
 .main_logo {
-  width: 60%;
-  height: 280px;
+  width: 62%;
+  height: 40%;
   margin-top: 10%;
 }/*# sourceMappingURL=style.css.map */

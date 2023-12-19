@@ -23,7 +23,16 @@ overflow: hidden;
 float: right;
 width: 96vw;
 height: 89vh;
-flex-direction: row;
+flex-direction: column;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px){
+}
+
+/* laptop */
+@media only screen and (max-width: 768px){
+
 }
 
 .m_left{
@@ -37,7 +46,7 @@ flex-direction: row;
 }
 
 .main_logo{
-    width: 60%;
-    height: 280px;
+    width: 62%;
+    height: 40%;
     margin-top: 10%;
 }
