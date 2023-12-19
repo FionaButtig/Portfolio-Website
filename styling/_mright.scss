@@ -16,6 +16,11 @@
     background-color: rgb(255, 255, 255);
 }
 
+.skills{
+    flex-wrap: wrap;
+    line-height: 0.1;
+}
+
 .bottom{
     background-color: rgb(240, 240, 240);
     flex-direction: row;
@@ -27,7 +32,7 @@
     height: auto;
     max-width:3vw;
     margin: 30px;
-    margin-top: 80px;
+    margin-top: 12%;
     transition: 0.3s; 
 }
 .html_i:hover{
@@ -47,7 +52,7 @@
     height: auto;
     max-width:3vw;
     margin: 30px;
-    margin-top: 80px;
+    margin-top: 12%;
     transition: 0.3s; 
 }
 
@@ -67,7 +72,7 @@
     height: auto;
     max-width:3vw;
     margin: 30px;
-    margin-top: 80px;
+    margin-top: 12%;
     transition: 0.3s; 
 }
 
@@ -87,7 +92,7 @@
     height: auto;
     max-width:3vw;
     margin: 30px;
-    margin-top: 80px;
+    margin-top: 12%;
     transition: 0.3s; 
 }
 
@@ -107,7 +112,7 @@
     height: auto;
     max-width:3vw;
     margin: 30px;
-    margin-top: 80px;
+    margin-top: 12%;
     transition: 0.3s; 
 }
 
@@ -128,8 +133,9 @@
     word-spacing: 4;
 }
 
-@media only screen and (max-width: 580px){
-    
+@media only screen and (max-width: 590px){
+
+
 .html_i{
     width: 10%;
     height: 40px;
