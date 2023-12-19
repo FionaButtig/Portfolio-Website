@@ -153,9 +153,19 @@ footer {
   width: 100%;
   height: 30%;
   flex-direction: row;
-  border-bottom: 2px solid rgb(124, 124, 124);
   text-align: center;
   background-color: rgb(255, 255, 255);
+}
+
+.top_content {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.top_content:hover {
+  transform: scale(1.02);
 }
 
 .skills {
@@ -165,9 +175,22 @@ footer {
 
 .bottom {
   background-color: rgb(240, 240, 240);
+  border-top: 2px solid rgb(124, 124, 124);
+  text-align: center;
   flex-direction: row;
   width: 100%;
   height: 70%;
+}
+
+.bottom_content {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.bottom_content:hover {
+  transform: scale(1.02);
 }
 
 .html_i {
@@ -344,10 +367,22 @@ main {
   border-right: 2px solid rgb(124, 124, 124);
 }
 
+.div_content {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.div_content:hover {
+  transform: scale(1.02);
+}
+
 .mleft_p {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   font-weight: bold;
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
@@ -356,6 +391,14 @@ main {
           text-decoration: underline rgb(15, 90, 44);
   font-weight: bold;
   color: green;
+  transition: 0.3s;
+}
+
+.fsu:hover {
+  -webkit-text-decoration: underline rgb(31, 142, 74);
+          text-decoration: underline rgb(31, 142, 74);
+  font-weight: bold;
+  color: rgb(59, 158, 59);
 }
 
 .main_logo {
