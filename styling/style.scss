@@ -1,84 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700;900&family=Rubik:ital,wght@0,500;1,800&display=swap');
+
+@import "header","sidebar", "footer";
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-}
-
-
-header{
-    width: 94vw; height: 8vh;
-    float: right;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.6rem;
-    border-bottom: 2px solid rgb(124, 124, 124);
-}
-
-.header_l{
-    width: 82%;
-    display: flex;
-}
-
-.header_r{
-    width: 18%;
-    button{ 
-        width: 100%;
-        height: 100%;
-        color: white;
-        font-size: 1rem;
-        background-color: #D41818;
-        border-left: 1px solid black; 
-        border-bottom: none;
-        border-right: none;
-        border-top: none;  
-    }
-}
-
-.div1{
-    display: flex;
-}
-
-.smaller_logo_i{
-    width: 4%;
-    height: 40px;
-}
-
-.sidebar{
-    float: left;
-    width: 6%;
-    height: 100%;
-    border-right: 2px solid rgb(124, 124, 124);
-    overflow: hidden;
-    display: inline;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.social_icons{
-    display: flex;
-}
-
-.menu_i{
-    width: 40%;
-    height: 40px;
-}
-
-.twitter_i{
-    width: 40%;
-    height: 40px;
-}
-
-.linkedin_i{
-    width: 40%;
-    height: 40px;
 }
 
 main{
@@ -98,6 +34,11 @@ flex-direction: row;
     border-right: 2px solid rgb(124, 124, 124);
 }
 
+.main_logo{
+    width: 70%;
+    height: 300px;
+}
+
 .m_right{
     overflow: hidden;
     float: right;
@@ -106,22 +47,21 @@ flex-direction: row;
     flex-direction: column;
 }
 
+
 .top{
-    width: 100%; height: 35%;
+    width: 100%; height: 30%;
     flex-direction: row;
     border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.Skill_i{
+    width: 8%;
+    height: 50px;
+    margin: 20px;
 }
 
 .bottom{
     flex-direction: row;
-    width: 100%; height: 65%;
+    width: 100%; height: 70%;
     border-bottom: 2px solid rgb(124, 124, 124);
-}
-
-
-footer{
-    flex-direction: row;
-    background-color: rgb(39, 39, 39);
-    width: 94vw;
-    height: 5vh;
 }
