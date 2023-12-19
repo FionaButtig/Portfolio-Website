@@ -22,6 +22,15 @@ header {
 
 .header_r {
   width: 14%;
+  transition: 0.3s;
+}
+
+.header_r:hover {
+  width: 18%;
+  cursor: pointer;
+}
+.header_r:hover .header_l {
+  width: 72%;
 }
 
 .contact_btn {
@@ -30,16 +39,20 @@ header {
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  background-color: #D41818;
-  border-left: 1px solid black;
+  background-color: #4b9e36;
+  border-left: 2px solid #4b9e36;
   border-bottom: none;
   border-right: none;
   border-top: none;
+  transition: 0.3s;
 }
 
 .contact_btn:hover {
-  background-color: black;
-  color: red;
+  cursor: pointer;
+  background-color: white;
+  color: #4b9e36;
+  border-left: 2px solid #4b9e36;
+  border-bottom: 2px solid #4b9e36;
 }
 
 .smaller_logo_i {
@@ -63,6 +76,12 @@ header {
   width: 42%;
   height: 30px;
   margin-top: 20%;
+  transition: 0.3s;
+}
+
+.menu_i:hover {
+  width: 56%;
+  cursor: pointer;
 }
 
 .menu_div {
@@ -91,7 +110,7 @@ header {
 
 footer {
   flex-direction: row;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(42, 42, 42);
   width: 96vw;
   height: 6vh;
 }
@@ -112,17 +131,94 @@ footer {
   text-align: center;
 }
 
-.Skill_i {
+.html_i {
   width: 6%;
   height: 40px;
   margin: 30px;
   margin-top: 80px;
+  transition: 0.3s;
 }
 
-.Skill_i:hover {
-  border-bottom: 3px solid red;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.html_i:hover {
+  width: 8%;
+  height: 44px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.css_i {
+  width: 6%;
+  height: 40px;
+  margin: 30px;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+
+.css_i:hover {
+  width: 8%;
+  height: 44px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.python_i {
+  width: 6%;
+  height: 40px;
+  margin: 30px;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+
+.python_i:hover {
+  width: 8%;
+  height: 44px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.django_i {
+  width: 6%;
+  height: 40px;
+  margin: 30px;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+
+.django_i:hover {
+  width: 8%;
+  height: 44px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.js_i {
+  width: 6%;
+  height: 40px;
+  margin: 30px;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+
+.js_i:hover {
+  width: 8%;
+  height: 44px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 21px;
+  cursor: pointer;
 }
 
 .bottom {
@@ -164,7 +260,7 @@ main {
 }
 
 .main_logo {
-  width: 55%;
-  height: 250px;
+  width: 60%;
+  height: 280px;
   margin-top: 10%;
 }/*# sourceMappingURL=style.css.map */

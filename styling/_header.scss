@@ -23,6 +23,15 @@ header{
 
 .header_r{
     width: 14%;
+    transition: 0.3s; 
+}
+
+.header_r:hover{
+    width: 18%;
+    cursor: pointer;
+    .header_l{
+        width: 72%;
+    }
 }
 
 .contact_btn{ 
@@ -31,16 +40,20 @@ header{
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    background-color: #D41818;
-    border-left: 1px solid black; 
+    background-color: #4b9e36;
+    border-left: 2px solid #4b9e36; 
     border-bottom: none;
     border-right: none;
-    border-top: none;  
+    border-top: none;
+    transition: 0.3s;  
 }
 
 .contact_btn:hover{
-    background-color: black;
-    color: red;
+    cursor: pointer;
+    background-color: white;
+    color: #4b9e36;
+    border-left: 2px solid #4b9e36; 
+    border-bottom: 2px solid #4b9e36;
 }
 
 .smaller_logo_i{
