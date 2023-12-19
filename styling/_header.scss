@@ -1,17 +1,23 @@
 
 header{
-    width: 94vw; height: 8vh;
+    width: 96vw; height: 8vh;
     float: right;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     border-bottom: 2px solid rgb(124, 124, 124);
 }
 
 .header_l{
     width: 82%;
     display: flex;
+    align-items: center;
+
+    p{
+        margin-left: 10px;
+    }
 }
 
 .header_r{
@@ -21,6 +27,7 @@ header{
         height: 100%;
         color: white;
         font-size: 1rem;
+        font-weight: bold;
         background-color: #D41818;
         border-left: 1px solid black; 
         border-bottom: none;
@@ -36,4 +43,5 @@ header{
 .smaller_logo_i{
     width: 4%;
     height: 40px;
+    margin-left: 1%;
 }
