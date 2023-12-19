@@ -14,29 +14,17 @@
 body{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 
 main{
 background-color: rgb(240, 240, 240);
-overflow: hidden;
 float: right;
 width: 96vw;
 height: 89vh;
 flex-direction: column;
 }
 
-/* mobile */
-@media only screen and (max-width: 600px){
-}
-
-/* laptop */
-@media only screen and (max-width: 768px){
-
-}
-
 .m_left{
-    overflow: hidden;
     float: left;
     width: 48%;
     height: 100%;
@@ -49,4 +37,37 @@ flex-direction: column;
     width: 62%;
     height: 40%;
     margin-top: 10%;
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 580px){
+    body{
+        overflow: scroll;
+    }
+
+    main{
+        width: 100%;
+        background-color: white;
+        overflow: scroll;
+    }
+
+    .main_logo{
+        width: 90%;
+    }
+
+    .top{
+        border-top: 2px solid rgb(124, 124, 124);
+    }
+
+    #row-{
+        width: 100%;
+        overflow: visible;
+    }
+}
+
+/* laptop */
+@media only screen and (max-width: 768px){
+
 }

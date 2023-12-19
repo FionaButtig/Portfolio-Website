@@ -61,10 +61,12 @@ header {
   margin-left: 1%;
 }
 
-@media only screen and (min-width: 600px) {
-  header {
-    width: 96vw;
-    height: 7vh;
+@media only screen and (max-width: 580px) {
+  .header_r {
+    width: 28%;
+  }
+  .smaller_logo_i {
+    width: 16%;
   }
 }
 .sidebar {
@@ -114,7 +116,7 @@ header {
   height: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
   .sidebar {
     display: none;
   }
@@ -128,7 +130,7 @@ footer {
   height: 6vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
   footer {
     display: none;
   }
@@ -247,6 +249,43 @@ footer {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 580px) {
+  .html_i {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 80px;
+    transition: 0.3s;
+  }
+  .css_i {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 80px;
+    transition: 0.3s;
+  }
+  .python_i {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 80px;
+    transition: 0.3s;
+  }
+  .django_i {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 80px;
+    transition: 0.3s;
+  }
+  .js_i {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 80px;
+    transition: 0.3s;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -258,22 +297,17 @@ footer {
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
 }
 
 main {
   background-color: rgb(240, 240, 240);
-  overflow: hidden;
   float: right;
   width: 96vw;
   height: 89vh;
   flex-direction: column;
 }
 
-/* mobile */
-/* laptop */
 .m_left {
-  overflow: hidden;
   float: left;
   width: 48%;
   height: 100%;
@@ -286,4 +320,27 @@ main {
   width: 62%;
   height: 40%;
   margin-top: 10%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* mobile */
+@media only screen and (max-width: 580px) {
+  body {
+    overflow: scroll;
+  }
+  main {
+    width: 100%;
+    background-color: white;
+    overflow: scroll;
+  }
+  .main_logo {
+    width: 90%;
+  }
+  .top {
+    border-top: 2px solid rgb(124, 124, 124);
+  }
+  #row- {
+    width: 100%;
+    overflow: visible;
+  }
+}
+/* laptop *//*# sourceMappingURL=style.css.map */

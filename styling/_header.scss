@@ -63,8 +63,14 @@ header{
 }
 
 
-@media only screen and (min-width: 600px){
-    header{
-        width: 96vw; height: 7vh;
-    };
+@media only screen and (max-width: 580px){
+    .header_r{
+        width: 28%;
+    }
+
+    .smaller_logo_i{
+        width: 16%;
+    }
 }
+
+
