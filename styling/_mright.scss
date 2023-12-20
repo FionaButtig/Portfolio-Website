@@ -9,34 +9,54 @@
 
 
 .top{
-    width: 100%; height: 30%;
+    width: auto; 
+    height: 100%;
+    max-height: 24vh;
     flex-direction: row;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid blue;
 }
 
 .top_content{
-    width: 100%;
-    height: 100%;
     transform: scale(1);
     transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    line-height: 0.1;
 }
 
 .top_content:hover{
     transform: scale(1.02);
 }
 
-.skills{
-    flex-wrap: wrap;
-    line-height: 0.1;
+.top_content img{
+    width: 100%;
+    height: auto;
+    max-width: 3.2vw;
+    margin: 20px;
+    margin-top: 10%;
+    transition: 0.3s; 
 }
 
-.bottom{
-    background-color: rgb(240, 240, 240);
-    border-top: 2px solid rgb(124, 124, 124);
+.top_content img:hover{
+    width: 100%;
+    height: auto;
+    max-width: 4vw;
+    margin-top:16px;
+    margin-bottom:16px; 
+    margin-left: 16px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.skill_names{
+    display: block;
+    color: black;
     text-align: center;
-    flex-direction: row;
-    width: 100%; height: 70%;
+    word-spacing: 4;
+    font-size: 2rem;
 }
 
 .bottom_content{
@@ -50,116 +70,13 @@
     transform: scale(1.02);
 }
 
-.html_i{
-    width: 100%;
-    height: auto;
-    max-width:3vw;
-    margin: 30px;
-    margin-top: 12%;
-    transition: 0.3s; 
-}
-.html_i:hover{
-    width: 100%;
-    height: auto;
-    max-width:4vw;
-    margin-top:26px;
-    margin-bottom:26px; 
-    margin-left: 26px;
-    margin-right: 21px;
-    cursor: pointer;
-}
 
-
-.css_i{
-    width: 100%;
-    height: auto;
-    max-width:3vw;
-    margin: 30px;
-    margin-top: 12%;
-    transition: 0.3s; 
-}
-
-.css_i:hover{
-    width: 100%;
-    height: auto;
-    max-width:4vw;
-    margin-top:26px;
-    margin-bottom:26px; 
-    margin-left: 26px;
-    margin-right: 21px;
-    cursor: pointer;
-}
-
-.python_i{
-    width: 100%;
-    height: auto;
-    max-width:3vw;
-    margin: 30px;
-    margin-top: 12%;
-    transition: 0.3s; 
-}
-
-.python_i:hover{
-    width: 100%;
-    height: auto;
-    max-width:4vw;
-    margin-top:26px;
-    margin-bottom:26px; 
-    margin-left: 26px;
-    margin-right: 21px;
-    cursor: pointer;
-}
-
-.django_i{
-    width: 100%;
-    height: auto;
-    max-width:3vw;
-    margin: 30px;
-    margin-top: 12%;
-    transition: 0.3s; 
-}
-
-.django_i:hover{
-    width: 100%;
-    height: auto;
-    max-width:4vw;
-    margin-top:26px;
-    margin-bottom:26px; 
-    margin-left: 26px;
-    margin-right: 21px;
-    cursor: pointer;
-}
-
-.js_i{
-    width: 100%;
-    height: auto;
-    max-width:3vw;
-    margin: 30px;
-    margin-top: 12%;
-    transition: 0.3s; 
-}
-
-.js_i:hover{
-    width: 100%;
-    height: auto;
-    max-width:4vw;
-    margin-top:26px;
-    margin-bottom:26px; 
-    margin-left: 26px;
-    margin-right: 21px;
-    cursor: pointer;
-}
-
-.skill_names{
-    color: grey;
-    text-align: center;
-    word-spacing: 4;
-    position: relative;
-    top: 6%;
-}
 
 @media only screen and (max-width: 590px){
 
+.skill_names{
+    display: none;
+}
 
 .html_i{
     width: 10%;

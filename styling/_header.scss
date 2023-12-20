@@ -24,12 +24,14 @@ header{
 }
 
 .header_r{
-    width: 14%;
+    width: 100%;
+    height: auto;
+    max-width: 16%;
     transition: 0.3s; 
 }
 
 .header_r:hover{
-    width: 18%;
+    max-width: 18%;
     cursor: pointer;
     .header_l{
         width: 72%;
@@ -38,8 +40,7 @@ header{
 
 .contact_btn{ 
     width: 100%;
-    height: auto;
-    min-height: 7vh;
+    height: 100%;
     color: white;
     font-size: 1rem;
     font-weight: bold;
@@ -68,12 +69,12 @@ header{
 
 
 @media only screen and (max-width: 590px){
-    .header_r{
-        width: 28%;
+    .smaller_logo_i{
+        max-width: 9vw;
     }
 
-    .smaller_logo_i{
-        width: 16%;
+    .header_r{
+        max-width: 24%;
     }
 }
 
