@@ -66,7 +66,7 @@ header {
 }
 
 /* mobile */
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 780px) {
   .smaller_logo_i {
     max-width: 9vw;
   }
@@ -126,7 +126,7 @@ header {
 }
 
 /* mobile */
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 780px) {
   .sidebar {
     display: none;
   }
@@ -142,7 +142,7 @@ footer {
 }
 
 /* mobile */
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 780px) {
   footer {
     width: 100vw;
   }
@@ -213,7 +213,7 @@ footer {
 }
 
 /* mobile */
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 780px) {
   .skill_names {
     display: none;
   }
@@ -298,21 +298,18 @@ main {
   height: auto;
   max-width: 25vw;
   margin-top: 4%;
-  /*
-  width: 68%;
-  height: 40%;
-  */
 }
 
 /* mobile */
-@media only screen and (max-width: 590px) {
-  body {
-    overflow: scroll;
-  }
+@media only screen and (max-width: 780px) {
   main {
     width: 100%;
     background-color: white;
     overflow: scroll;
+    overflow-x: hidden;
+  }
+  .mleft {
+    border: none;
   }
   .mleft_p {
     font-size: 1rem;

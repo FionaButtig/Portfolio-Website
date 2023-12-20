@@ -72,24 +72,22 @@ flex-direction: column;
     height: auto;
     max-width: 25vw;
     margin-top: 4%;
-     /*
-    width: 68%;
-    height: 40%;
-    */
 }
 
 
 
 /* mobile */
-@media only screen and (max-width: 590px){
-    body{
-        overflow: scroll;
-    }
+@media only screen and (max-width: 780px){
 
     main{
         width: 100%;
         background-color: white;
         overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .mleft{
+        border: none;
     }
 
     .mleft_p{
