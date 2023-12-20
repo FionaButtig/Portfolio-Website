@@ -67,7 +67,7 @@ header{
     max-width: 3vw;
 }
 
-
+/* mobile */
 @media only screen and (max-width: 590px){
     .smaller_logo_i{
         max-width: 9vw;
@@ -76,6 +76,11 @@ header{
     .header_r{
         max-width: 24%;
     }
+}
+
+/* laptop */
+@media only screen and (max-width: 780px){
+
 }
 
 

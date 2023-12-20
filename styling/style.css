@@ -65,6 +65,7 @@ header {
   max-width: 3vw;
 }
 
+/* mobile */
 @media only screen and (max-width: 590px) {
   .smaller_logo_i {
     max-width: 9vw;
@@ -73,6 +74,7 @@ header {
     max-width: 24%;
   }
 }
+/* laptop */
 .sidebar {
   float: left;
   width: 4%;
@@ -123,11 +125,13 @@ header {
   margin-bottom: 8px;
 }
 
+/* mobile */
 @media only screen and (max-width: 590px) {
   .sidebar {
     display: none;
   }
 }
+/* laptop */
 footer {
   display: block;
   flex-direction: row;
@@ -137,11 +141,13 @@ footer {
   height: 6vh;
 }
 
+/* mobile */
 @media only screen and (max-width: 590px) {
   footer {
-    display: none;
+    width: 100vw;
   }
 }
+/* laptop */
 .m_right {
   overflow: hidden;
   float: right;
@@ -151,22 +157,23 @@ footer {
 }
 
 .top {
+  background-color: green;
   width: auto;
   height: 100%;
   max-height: 24vh;
   flex-direction: row;
   text-align: center;
   background-color: rgb(255, 255, 255);
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(124, 124, 124);
 }
 
 .top_content {
-  transform: scale(1);
-  transition: 0.5s;
   width: 100%;
-  height: 100%;
+  height: 70%;
   flex-wrap: wrap;
   line-height: 0.1;
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 .top_content:hover {
@@ -194,11 +201,14 @@ footer {
 }
 
 .skill_names {
-  display: block;
-  color: black;
+  color: grey;
   text-align: center;
   word-spacing: 4;
-  font-size: 2rem;
+  font-size: 1rem;
+  position: relative;
+  width: 100%;
+  height: 30%;
+  float: end;
 }
 
 .bottom_content {
@@ -212,46 +222,21 @@ footer {
   transform: scale(1.02);
 }
 
+/* mobile */
 @media only screen and (max-width: 590px) {
   .skill_names {
     display: none;
   }
-  .html_i {
-    width: 10%;
-    height: 40px;
-    margin: 10px;
-    margin-top: 80px;
-    transition: 0.3s;
-  }
-  .css_i {
-    width: 10%;
-    height: 40px;
-    margin: 10px;
-    margin-top: 80px;
-    transition: 0.3s;
-  }
-  .python_i {
-    width: 10%;
-    height: 40px;
-    margin: 10px;
-    margin-top: 80px;
-    transition: 0.3s;
-  }
-  .django_i {
-    width: 10%;
-    height: 40px;
-    margin: 10px;
-    margin-top: 80px;
-    transition: 0.3s;
-  }
-  .js_i {
-    width: 10%;
-    height: 40px;
-    margin: 10px;
-    margin-top: 80px;
+  .top_content img {
+    width: 100%;
+    height: auto;
+    max-width: 3.2vw;
+    margin: 20px;
+    margin-top: 10%;
     transition: 0.3s;
   }
 }
+/* laptop */
 * {
   margin: 0;
   padding: 0;
@@ -296,8 +281,9 @@ main {
   width: 70%;
   margin: 0 auto;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 .fsu {
@@ -337,6 +323,11 @@ main {
     width: 100%;
     background-color: white;
     overflow: scroll;
+  }
+  .mleft_p {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
   }
   .main_logo {
     max-width: 60vw;

@@ -50,9 +50,14 @@
     margin-bottom: 8px;
 }
 
-
+/* mobile */
 @media only screen and (max-width: 590px){
     .sidebar{
         display: none
     };
+}
+
+/* laptop */
+@media only screen and (max-width: 780px){
+
 }

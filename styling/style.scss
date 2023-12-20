@@ -47,8 +47,9 @@ flex-direction: column;
     width: 70%;
     margin: 0 auto;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.4;
+    text-align: center;
 }
 
 .fsu{
@@ -91,6 +92,12 @@ flex-direction: column;
         overflow: scroll;
     }
 
+    .mleft_p{
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+
     .main_logo{
         max-width: 60vw;
     }
@@ -106,6 +113,6 @@ flex-direction: column;
 }
 
 /* laptop */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 780px){
 
 }
