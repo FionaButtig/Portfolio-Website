@@ -1,0 +1,10 @@
+Menu Icon Function:
+    - Language Switch
+    - Color Mode Switch?
+
+Contact Button:
+    - Brings up contact Form
+
+Social Icons:
+    - Either redirects you to website in new tab or copys my username for that website
+
