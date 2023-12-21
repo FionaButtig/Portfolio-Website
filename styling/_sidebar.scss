@@ -33,6 +33,12 @@
     height: 12%;
     align-items: end;
     text-align: center;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.social_icons:hover{
+    transform: scale(1.1);
 }
 
 

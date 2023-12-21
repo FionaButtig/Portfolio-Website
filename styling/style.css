@@ -109,6 +109,12 @@ header {
   height: 12%;
   align-items: end;
   text-align: center;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.social_icons:hover {
+  transform: scale(1.1);
 }
 
 .twitter_i {
@@ -250,7 +256,7 @@ main {
 
 .div_content {
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 100%;
   transform: scale(1);
@@ -280,7 +286,7 @@ main {
 .mleft_p {
   width: 70%;
   margin: 0 auto;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.1rem;
   line-height: 1.4;
   text-align: justify;
@@ -289,7 +295,7 @@ main {
 .fsu {
   -webkit-text-decoration: underline rgb(15, 90, 44);
           text-decoration: underline rgb(15, 90, 44);
-  font-weight: bold;
+  font-weight: 600;
   color: green;
   transition: 0.3s;
 }
