@@ -154,7 +154,7 @@ footer {
 .m_right {
   overflow: hidden;
   float: right;
-  width: 52%;
+  width: 56%;
   height: 100%;
   flex-direction: column;
 }
@@ -180,7 +180,7 @@ footer {
   width: 100%;
   height: auto;
   max-width: 3.2vw;
-  margin: 20px;
+  margin: 22px;
   margin-top: 10%;
   transition: 0.3s;
 }
@@ -268,7 +268,7 @@ main {
 
 .div_content {
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
   transform: scale(1);
@@ -282,7 +282,7 @@ main {
 .m_left {
   align-items: center;
   float: left;
-  width: 48%;
+  width: 44%;
   height: 100%;
   flex-direction: column;
   border-right: 2px solid rgb(124, 124, 124);
