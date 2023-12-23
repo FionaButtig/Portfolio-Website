@@ -110,7 +110,6 @@ header {
   height: 100%;
   text-align: center;
   transform: scale(1);
-  transition: 0.3s;
 }
 
 .social_icons img {
@@ -118,6 +117,7 @@ header {
   height: auto;
   max-width: 2.2vw;
   margin-bottom: 16%;
+  transition: 0.3s;
 }
 
 .social_icons img:hover {
