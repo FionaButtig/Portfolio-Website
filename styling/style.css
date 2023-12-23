@@ -118,6 +118,7 @@ header {
   max-width: 2.2vw;
   margin-bottom: 16%;
   transition: 0.3s;
+  width: 100%;
 }
 
 .social_icons img:hover {
